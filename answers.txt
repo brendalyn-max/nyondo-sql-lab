@@ -47,6 +47,8 @@ $ python3 setup.py
 (4, 'Nails 1kg', 'Common wire nails 1kg pack', 12000.0)
 (5, 'Timber 2x4', 'Pine timber plank 2x4 per metre', 25000.0)
 
+screenshots_task1.png
+
 ========================================
 Task 2 - Queries
 ========================================
@@ -108,4 +110,4 @@ G: [(1, 'Cement (bag)', 'Portland cement 50kg bag', 38000.0),
     (4, 'Nails 1kg', 'Common wire nails 1kg pack', 12000.0),
     (5, 'Timber 2x4', 'Pine timber plank 2x4 per metre', 25000.0)]
 
-Screenshot saved as screenshots/task2.png
+Screenshot saved as screenshots_task2.png
