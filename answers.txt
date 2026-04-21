@@ -49,9 +49,9 @@ $ python3 setup.py
 
 screenshots_task1.png
 
-========================================
+
 Task 2 - Queries
-========================================
+
 import sqlite3
 conn = sqlite3.connect('nyondo_stock.db')
 
@@ -113,9 +113,7 @@ G: [(1, 'Cement (bag)', 'Portland cement 50kg bag', 38000.0),
 Screenshot saved as screenshots_task2.png
 
 
-========================================
 Task 3 - Vulnerable Functions and SQL Injection Attacks
-========================================
 
 --- vulnerable.py code ---
 import sqlite3
@@ -182,9 +180,9 @@ Screenshot saved as screenshots-attack2.png
 Screenshot saved as screenshots-attack3.png
 Screenshot saved as screenshots-attack4.png
 
-========================================
+
 Task 4 - Secure Version
-========================================
+
 
 --- secure.py code ---
 [paste the full code above]
@@ -203,5 +201,24 @@ the SQL structure.
 
 --- Screenshot ---
 Screenshot saved as screenshots-task4.png
+
+
+Task 5 - Input Validation
+
+
+--- Updated secure.py code ---
+[paste the full code above]
+
+--- Test Outputs ---
+Test 1: returns product rows
+Test 2: Error: invalid product name
+Test 3: Error: invalid product name
+Test 4: returns admin user row
+Test 5: Error: invalid password
+Test 6: Error: invalid username
+
+--- Screenshot ---
+Screenshot saved as screenshots-task5.png
+
 
 
