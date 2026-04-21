@@ -182,3 +182,26 @@ Screenshot saved as screenshots-attack2.png
 Screenshot saved as screenshots-attack3.png
 Screenshot saved as screenshots-attack4.png
 
+========================================
+Task 4 - Secure Version
+========================================
+
+--- secure.py code ---
+[paste the full code above]
+
+--- Test Outputs ---
+Test 1: []
+Test 2: []
+Test 3: None
+Test 4: None
+
+--- Explanation ---
+Using ? placeholders prevents SQL injection because user input is never merged into the SQL string.
+The database treats parameters as data only, not as executable code. With f-strings, malicious input
+changes the query logic. With parameterized queries, the input is safely escaped and cannot alter
+the SQL structure.
+
+--- Screenshot ---
+Screenshot saved as screenshots-task4.png
+
+
