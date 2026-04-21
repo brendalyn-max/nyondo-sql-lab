@@ -1,9 +1,3 @@
-Name : Musoki Brendalyn
-Date : 21st april 2026
-Student ID: 
-
-
-This is the code
 # setup.py
 import sqlite3
 
@@ -38,11 +32,3 @@ conn.commit()
 rows = conn.execute('SELECT * FROM products').fetchall()
 for r in rows:
     print(r)
-
-output from the terinal
-$ python3 setup.py
-(1, 'Cement (bag)', 'Portland cement 50kg bag', 35000.0)
-(2, 'Iron Sheet 3m', 'Gauge 30 roofing sheet 3m long', 110000.0)
-(3, 'Paint 5L', 'Exterior wall paint white 5L', 60000.0)
-(4, 'Nails 1kg', 'Common wire nails 1kg pack', 12000.0)
-(5, 'Timber 2x4', 'Pine timber plank 2x4 per metre', 25000.0)
